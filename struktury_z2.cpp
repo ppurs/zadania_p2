@@ -1,3 +1,5 @@
+//link do repozytorium: https://github.com/ppurs/zadania_p2/blob/master/struktury_z2.cpp
+
 #include<iostream>
 #include <memory>
 
@@ -9,7 +11,7 @@ struct Stypendium {
 struct Student {
     std::string imie = "Jan";
     std::string nazwisko = "Kowalski";
-    std::string rok_studiow = "2";
+    int rok_studiow = 2;
     //Stypendium* stypendium;                   //klasycznie
     std::shared_ptr<Stypendium>stypendium;
 };

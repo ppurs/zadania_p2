@@ -22,9 +22,10 @@ int main () {
     std::shared_ptr<Stypendium>s_1(new Stypendium);              // sprytny
     student_1->stypendium = s_1;
 
-/*  delete student_1;                 // do klasycznej wersji
-    delete s_1;
-                */
+
+    delete student_1;
+    //delete s_1;               // do klasycznej wersji
+
 
     return 0;
 }

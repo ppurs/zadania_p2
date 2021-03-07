@@ -20,10 +20,7 @@ int main () {
 
     //Stypendium* s_1 = new Stypendium;                             // klasycznie
     std::shared_ptr<Stypendium>s_1(new Stypendium);              // sprytny
-    s_1->rodzaj = "socjalne";
-    s_1->wysokosc = 750;
     student_1->stypendium = s_1;
-
 
 /*  delete student_1;                 // do klasycznej wersji
     delete s_1;
